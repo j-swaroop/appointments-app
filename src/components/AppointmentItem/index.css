@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.appointment-item{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b5b7c4;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 16px;
+    padding-bottom: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+@media(max-width: 576px){
+    .appointment-item{
+       justify-content: center;
+       margin-left:10px;
+       width: 250px;
+    }
+}
+
+@media (min-width: 680px) and  (max-width: 938px){
+    .appointment-item{
+        width: 190px;
+    }
+}
+.appoint-details-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title{
+    color: #171f46;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+button{
+    border-width: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.appointment-date{
+    color:  #b5b7c4;
+    font-size: 12px;
+    font-family: "Roboto";
+    margin-top: 1px;
+}
+.star-img{
+    margin-top: 5px;
+    height: 24px;
+    width: 24px;
+}
